@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("/static/fonts/OpenSans-Regular.eot?v=1.1.0");
+    src: url("/static/fonts/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"),
+        url("/static/fonts/OpenSans-Regular.woff2?v=1.1.0") format("woff2"),
+        url("/static/fonts/OpenSans-Regular.woff?v=1.1.0") format("woff"),
+        url("/static/fonts/OpenSans-Regular.ttf?v=1.1.0") format("truetype"),
+        url("/static/fonts/OpenSans-Regular.svg?v=1.1.0#Regular") format("svg");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("/static/fonts/Roboto-Regular.woff2?v=1.1.0") format("woff2"),
+        url("/static/fonts/Roboto-Regular.woff?v=1.1.0") format("woff"),
+        url("/static/fonts/Roboto-Regular.ttf?v=1.1.0") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("/static/fonts/Roboto-Regular.woff2?v=1.1.0") format("woff2"),
+        url("/static/fonts/Roboto-Regular.woff?v=1.1.0") format("woff"),
+        url("/static/fonts/Roboto-Regular.ttf?v=1.1.0") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/static/fonts/Roboto-Regular.ttf')  format('truetype')
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    color: #333;
+    font: 16px/1 'Open Sans', sans-serif;
+    margin: 0;
+    overflow-y: scroll;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+main,
+li {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: inherit;
+}
+strong {
+    font-weight: bold;
+}
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+a {
+    text-decoration: none;
+}
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+input, select {
+    font: 16px/1 'Open Sans', sans-serif;
+}
